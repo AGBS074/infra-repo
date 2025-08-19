@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: hello-devops
-        image: agbs074/hello-devops:v1   # <-- will be updated automatically
+        image: agbs074/hello-devops:d3ce9939033f07a70d350a7a68a526fbfa140d42
         ports:
         - containerPort: 5000
 
