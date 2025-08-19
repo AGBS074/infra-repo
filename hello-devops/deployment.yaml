@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: hello-devops
-          image: agbs074/hello-app:1.0
+          image: agbs074/hello-app:latest
           ports:
             - containerPort: 8000
           readinessProbe:
